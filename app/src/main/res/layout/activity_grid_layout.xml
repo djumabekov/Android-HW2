@@ -1,0 +1,89 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="3"
+    android:padding="16dp"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_margin="8dp"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_margin="8dp"
+        android:contentDescription="TODO2" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_margin="8dp"
+        android:contentDescription="TODO3" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_launcher_background"
+        android:contentDescription="TODO4" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_launcher_background"
+        android:contentDescription="TODO5" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_launcher_background"
+        android:contentDescription="TODO6" />
+
+    <Button
+        android:layout_width="1sp"
+        android:layout_height="1sp"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:layout_columnWeight="1"
+        android:text="Button 1" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:layout_columnWeight="1"
+        android:text="Button 2" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp"
+        android:layout_rowWeight="1"
+        android:text="Button 3" />
+
+
+</GridLayout>
